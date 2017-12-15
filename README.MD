@@ -1,6 +1,7 @@
-My Favorite Movies is a CRUD webapp that uses:
+My Favorite Movies is an object oriented CRUD webapp that uses:
 
-- Angular2 (client side)
-- NodeJS (server side)
+- Angular (client side)
+- NodeJS + ExpressJS (server side)
 - MongoDB (data persistence)
 
+In order to run the app you have to have those tools up and running
