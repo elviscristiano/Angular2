@@ -1,0 +1,10 @@
+<h2>Insert movies......</h2>
+<!-- <form (submit)="onSubmit()"> -->
+<form #f="ngForm" (ngSubmit)="onSubmit(f.value)" class="ui form"> 
+	Title: <input type="text" id="inputMovieTitle" name="inputMovieTitle" ngModel><br>
+	Genre: <br>
+    <select #inputMovieGenre id="inputMovieGenre" name="inputMovieGenre" ngModel >
+        <option *ngFor="let item of allCategoriesNames" [value]="item">{{item}}</option>
+    </select>
+	<button type="submit">submit</button>
+</form>
